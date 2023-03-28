@@ -4,3 +4,6 @@
 # IDE
 .idea
 .vscode
+
+# Taskfile
+Taskfile.yml

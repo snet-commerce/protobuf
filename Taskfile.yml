@@ -1,6 +1,0 @@
-version: '3'
-
-tasks:
-  proto-common:
-    cmds:
-      - protoc -Icommon --go_out=./common --go-grpc_out=./common --go_opt=module=github.com/snet-commerce/protobuf/common --go-grpc_opt=module=github.com/snet-commerce/protobuf/common ./common/*.proto
