@@ -9,7 +9,7 @@ enum Order {
   DESC = 1;
 }
 
-message OrderBy {
+message Ordering {
   string name = 1;
   Order order = 2;
 }
