@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "github.com/snet-commerce/protobuf/common";
+
+package common;
+
+enum Order {
+  ASC = 0;
+  DESC = 1;
+}
+
+message OrderBy {
+  string name = 1;
+  Order order = 2;
+}

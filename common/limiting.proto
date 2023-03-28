@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "github.com/snet-commerce/protobuf/common";
+
+package common;
+
+message Limiting {
+  int32 limit = 1;
+  int32 offset = 2;
+}

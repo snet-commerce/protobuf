@@ -1,0 +1,6 @@
+# generated protobuf files
+*.pb.go
+
+# IDE
+.idea
+.vscode
