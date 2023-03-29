@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/snet-commerce/protobuf/common;commonpb";
+option go_package = "github.com/snet-commerce/protobuf/common";
 
 package common;
 

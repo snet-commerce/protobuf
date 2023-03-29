@@ -7,3 +7,7 @@
 
 # Taskfile
 Taskfile.yml
+
+# go mod
+go.mod
+go.sum
